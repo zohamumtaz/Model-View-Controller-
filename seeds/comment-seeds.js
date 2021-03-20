@@ -27,11 +27,7 @@ const commentdata = [
     user_id: 7,
     post_id: 5
   },
-  {
-    comment_text: 'Vivamus vestibulum sagittis sapien.',
-    user_id: 1,
-    post_id: 20
-  },
+  
   {
     comment_text: 'Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.',
     user_id: 6,
@@ -47,11 +43,7 @@ const commentdata = [
     user_id: 6,
     post_id: 12
   },
-  {
-    comment_text: 'Morbi a ipsum.',
-    user_id: 6,
-    post_id: 20
-  },
+  
   {
     comment_text: 'Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.',
     user_id: 3,
@@ -210,14 +202,12 @@ const commentdata = [
     post_id: 3
   },
   {
-    comment_text:
-      'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
+    comment_text:'Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.',
     user_id: 5,
     post_id: 3
   },
   {
-    comment_text:
-      'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
+    comment_text:'Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.',
     user_id: 2,
     post_id: 3
   },
@@ -232,8 +222,7 @@ const commentdata = [
     post_id: 3
   },
   {
-    comment_text:
-      'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
+    comment_text:'Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.',
     user_id: 7,
     post_id: 3
   },
@@ -248,8 +237,7 @@ const commentdata = [
     post_id: 3
   },
   {
-    comment_text:
-      'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
+    comment_text:'Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.',
     user_id: 2,
     post_id: 3
   },
@@ -258,11 +246,7 @@ const commentdata = [
     user_id: 10,
     post_id: 3
   },
-  {
-    comment_text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus.',
-    user_id: 10,
-    post_id:  3
-  }
+  
 ];
 
 const seedComments = () => Comment.bulkCreate(commentdata);

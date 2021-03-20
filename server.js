@@ -41,5 +41,5 @@ app.engine('handlebars', hbs.engine);
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log());
+  app.listen(PORT, () => console.log("server is runnning"));
 });
